@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1756841291825,
+  "lastUpdate": 1757385846209,
   "repoUrl": "https://github.com/aegntic/n8n-pro",
   "entries": {
     "n8n-mcp Benchmarks": [
@@ -104,6 +104,58 @@ window.BENCHMARK_DATA = {
             "unit": "ms",
             "range": 0.332,
             "extra": "15105 ops/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "56956555+czlonkowski@users.noreply.github.com",
+            "name": "Romuald Członkowski",
+            "username": "czlonkowski"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9e79b53465fc9c5ea368a316e14e52161b45e529",
+          "message": "Merge pull request #178 from amauryconstant/feature/add-readonly-isArchived-property\n\nAdd isArchived field to workflow responses and types",
+          "timestamp": "2025-09-04T15:42:20+02:00",
+          "tree_id": "f25f250fb33a322faeed9f0fc4abf58cbb6f6f5b",
+          "url": "https://github.com/aegntic/n8n-pro/commit/9e79b53465fc9c5ea368a316e14e52161b45e529"
+        },
+        "date": 1757385845830,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "sample - array sorting - small",
+            "value": 0.0204,
+            "range": "1.4891999999999999",
+            "unit": "ms",
+            "extra": "49032 ops/sec"
+          },
+          {
+            "name": "sample - array sorting - large",
+            "value": 3.1724,
+            "range": "0.6328999999999998",
+            "unit": "ms",
+            "extra": "315 ops/sec"
+          },
+          {
+            "name": "sample - string concatenation",
+            "value": 0.0051,
+            "range": "0.3242",
+            "unit": "ms",
+            "extra": "197414 ops/sec"
+          },
+          {
+            "name": "sample - object creation",
+            "value": 0.0664,
+            "range": "0.3294",
+            "unit": "ms",
+            "extra": "15050 ops/sec"
           }
         ]
       }
